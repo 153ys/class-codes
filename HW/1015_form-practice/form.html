@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F2E02表單練習</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <div class="container">
+          <div class="top-purple"></div>
+          <h1>F2E02表單練習</h1>
+          <h5>僅供新尖兵F2E02表單切版練習作業</h5>
+          <hr class="top-line"></hr>
+          <h5>
+            <a href="#" class="switch-account">登入 Google</a> 即可儲存進度。
+            <a href="#" class="switch-account">瞭解詳情</a>
+          </h5>
+          <hr class="top-line"></hr>
+          <h5 class="notice-color">* 表示必填問題</h5>
+        </div>
+        <div class="container">
+          <label>
+            <h4>姓名 <span class="notice-color">*</span></h4>
+            <input
+              class="input-style"
+              type="text"
+              placeholder="您的回答"
+              required
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="container">
+          <label>
+            <h4>信箱 <span class="notice-color">*</span></h4>
+            <input
+              class="input-style"
+              type="email"
+              placeholder="您的回答"
+              required
+            />
+          </label>
+        </div>
+
+        <div class="container">
+          <label>
+            <h4>生日</h4>
+            <p style="color: gray; font-size: 12px">日期</p>
+            <input class="input-style" type="date" name="" id="" />
+          </label>
+        </div>
+
+        <div class="container">
+          <label>
+            <h4>想跟老師說悄悄話</h4>
+            <input
+              type="text"
+              class="input-style"
+              name=""
+              id=""
+              placeholder="您的回答"
+            />
+          </label>
+        </div>
+
+        <fieldset class="container">
+          <h4>喜歡的顏色</h4>
+          <div>
+            <label>
+              <input
+                type="radio"
+                class="radio-style"
+                id="yellow"
+                name="color"
+                value="yellow"
+              />黃
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                class="radio-style"
+                id="green"
+                name="color"
+                value="green"
+              />綠
+            </label>
+          </div>
+          <div>
+            <label>
+              <input
+                type="radio"
+                class="radio-style"
+                id="red"
+                name="color"
+                value="red"
+              />紅
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="container">
+          <h4>喜歡吃的飲食類型</h4>
+          <div>
+            <input
+              type="checkbox"
+              class="checkbox-style"
+              name="chinese"
+              id="chinese"
+            />
+            <label for="chinese">中式</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="checkbox-style"
+              name="checkbox-eat"
+              id="italy"
+            />
+            <label for="italy">義式</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="checkbox-style"
+              name="checkbox-eat"
+              id="japan"
+            />
+            <label for="japan">日式</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="checkbox-style"
+              name="checkbox-eat"
+              id="korea"
+            />
+            <label for="korea">韓式</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="checkbox-style"
+              name="america"
+              id="america"
+            />
+            <label for="america">美式</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              class="checkbox-style"
+              name="thai"
+              id="thai"
+            />
+            <label for="thai">泰式</label>
+          </div>
+        </fieldset>
+
+        <div class="container">
+          <h4>最想去的國家 (使用 optgroup 將選項分為不同洲)</h4>
+          <select name="country" id="" class="select-style">
+            <option value="" selected disabled>選擇</option>
+            <optgroup label="亞洲">
+              <option value="japan">日本</option>
+              <option value="korea">韓國</option>
+              <option value="thailand">泰國</option>
+            </optgroup>
+            <optgroup label="歐洲">
+              <option value="germany">德國</option>
+              <option value="uk">英國</option>
+            </optgroup>
+            <optgroup label="美洲">
+              <option value="canada">加拿大</option>
+              <option value="america">美國</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="button-container">
+          <button class="submit-button" type="submit" value="submit">
+            提交
+          </button>
+          <button class="clear-button" type="reset" value="reset">
+            清除表單
+          </button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

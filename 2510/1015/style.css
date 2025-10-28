@@ -1,0 +1,27 @@
+section {
+    margin: 50px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(255, 227, 231);
+}
+
+.card img {
+    width: 260px;
+    display: block;
+}
+
+.card title {
+    font-size: 36px;
+}
+
+.cta {
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+}

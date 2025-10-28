@@ -1,0 +1,50 @@
+section {
+  margin: 100px;
+}
+
+.faq-section {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 14px;
+}
+
+.title-style {
+  font-size: 2em;
+}
+
+.qs-container {
+  background-color: white;
+}
+
+.faq-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.url-style {
+  color: green;
+  text-decoration: none;
+}
+
+.sum-style {
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.btn-style {
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+
+.box {
+  background-color: pink;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 40px;
+  border: 4px solid black;
+}

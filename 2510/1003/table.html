@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+				td  {
+						padding: 10px;
+				}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            年齡統計表
+        </caption>
+        <colgroup>
+            <col style="background-color: #fa0;"/>
+            <col span="5" style="background-color: lightgoldenrodyellow;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>性別</th>
+                <th>姓名</th>
+                <th>電話</th>
+                <th>email</th>
+                <th>興趣</th>
+                <th>年齡</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">女</td>
+                <td>krystal</td>
+                <td>0987</td>
+                <td>krystal</td>
+                <td>躺著</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2">男</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+                <tr>
+                    <th colspan="5">年齡平均值</th>
+                    <td>18</td>
+                </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

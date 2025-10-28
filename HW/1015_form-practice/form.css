@@ -1,0 +1,105 @@
+body {
+  font-family: 微軟正黑體;
+  position: relative;
+  background-color: #f0ebf8;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #ffffff;
+  border: 1px solid rgb(218, 220, 224);
+  margin-bottom: 10px;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.top-purple {
+  background-color: rgb(103, 58, 183);
+  height: 9px;
+  margin: -24px -24px 16px -24px;
+}
+
+.top-line {
+  border-bottom: 1px;
+  margin: 0 -24px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 14px;
+  margin-bottom: 16px;
+}
+
+h5 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.switch-account {
+  color: rgb(26, 115, 232);
+  text-decoration: none;
+}
+
+.notice-color {
+  color: rgb(217, 48, 37);
+}
+
+.input-style {
+  font-size: 15px;
+  width: 250px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.radio-style {
+  margin: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-style {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+.color-clear {
+  display: inline-block;
+  background-color: white;
+  border: none;
+}
+
+.select-style {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button {
+  background-color: rgb(103, 58, 183);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.clear-button {
+  color: rgb(103, 58, 183);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

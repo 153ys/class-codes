@@ -1,0 +1,17 @@
+section {
+  margin: 100px;
+}
+
+div {
+  margin: 10px;
+}
+
+input {
+  border: 1px solid black;
+}
+
+button {
+  background-color: rgb(255, 213, 0);
+  padding: 6px;
+  border-radius: 4px;
+}

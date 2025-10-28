@@ -1,0 +1,22 @@
+
+table,
+th, 
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;  /* 格內做5px內距 */
+  text-align: center;  /* 內容置中 */
+}
+
+/* 時間大小設定 */
+.text-size {
+  font-size: 13px;
+}
+
+/* 字距拉寬 */
+.space-text {
+  letter-spacing: 50px;
+  /* 每個字元之後都加上50px空白(最後一個字沒有)，造成視覺偏左
+     -->利用text-indent補左邊空間 */
+  text-indent: 50px;
+}

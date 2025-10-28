@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表單</title>
+  <link rel="stylesheet" href="../../reset.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <section>
+    <form action="#" method="post">
+      <h2>登入頁面</h2>
+      <div>
+        <progress id="file" max="100" value="60"></progress>
+      </div>
+      <div>
+        <label>
+          我最愛吃的食物
+          <select name="food" id="">
+            <option value="" selected disabled hidden>--請選擇食物--</option>
+            <option value="cake">蛋糕</option>
+            <option value="pudding">布丁</option>
+            <option value="dingpu">丁布</option> 
+          </select>
+        </label>
+      </div>
+      <div>
+        <p>我要發問</p>
+        <label>
+          <textarea name="" placeholder="描述你的問題"></textarea>
+        </label>
+      </div>
+      <div>
+        <label>
+          帳號
+          <input
+            type="text"
+            name="email"
+            placeholder="Pinkoi帳號"
+            value="yuna">
+        </label>
+      </div>
+      <div>
+        <label for="passwordId">密碼</label>
+          <input 
+          id="passwordId"
+          type="password"
+          name="password"
+          placeholder="pinkoi密碼"
+          required>
+      </div>
+      <div>
+        年月日 <input type="date">
+      </div>
+      <div>
+        月份 <input type="month" name="" id="">
+      </div>
+      <div>
+        <input type="button" value="input的button">
+      </div>
+      <div>
+        color <input type="color" name="" id="">
+      </div>
+      <div>
+        file <input type="file" name="" id="">
+      </div>
+      <div>
+        <label>
+          範圍
+          <input
+          type="range"
+          name="range"
+          min="0"
+          max="100"
+          value="90"
+          step="10">
+        </label>
+      </div>
+      <div>
+        <label>
+          搜尋
+          <input
+          type="search"
+          name="search"
+          id="search">
+        </label>        
+      </div>
+      <div>
+        input hidden在這
+        <input type="hidden" name="" id="hidden的input">
+      </div>
+      <div>
+        <input type="image" name="" id="" src="./images/cat.jpg">
+      </div>
+      <button type="submit">
+        button的送出
+        <img src="./images/cube.svg" alt="">
+      </button>
+      <button type="reset">button的清空</button>
+      <div>
+        <legend>最喜歡的國家</legend>
+        <label>
+          <input type="radio" name="country" id="" value="台灣"> 台灣
+        </label>
+        <label>
+          <input type="radio" name="country" id="" value="日本">日本
+        </label>
+        <label>
+          <input type="radio" name="country" id="" value="韓國">韓國
+        </label>
+        <label>
+          <input type="radio" name="country" id="" value="美國">美國
+        </label>
+        <legend>去過的國家</legend>
+          <input type="checkbox" name="checkbox-country" id="" value="台灣" checked>台灣
+          <input type="checkbox" name="checkbox-country" id="" value="日本">日本
+          <input type="checkbox" name="checkbox-country" id="" value="韓國">韓國
+        </div>
+    </form>
+  </section>
+</body>
+</html>

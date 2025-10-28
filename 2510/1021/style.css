@@ -1,0 +1,14 @@
+.out {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
