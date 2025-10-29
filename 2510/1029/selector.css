@@ -1,0 +1,49 @@
+section {
+  margin: 100px;
+}
+
+.first-item > div {
+  color: blue;
+}
+
+.first-item-border > div {
+  border: 2px solid blue;
+}
+
+[href] {
+  color: orange;
+}
+
+[href^="https"] {
+  color: green;
+}
+
+.linka {
+  color: blue;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 4px;
+  border: 1px solid pink;
+}
+.first-item > div {
+}
+.item + .item {
+}
+
+/* p:first-of-type {
+  border: 1px solid black;
+} */
+
+.box :first-child {
+  background-color: yellow;
+}
+
+/* .box :first-of-type {
+  background-color: orange;
+} */
+
+p:first-child {
+  color: red;
+}
