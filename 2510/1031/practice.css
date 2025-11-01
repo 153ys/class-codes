@@ -1,0 +1,86 @@
+section {
+  margin: 100px;
+}
+
+.float-card {
+  background-color: lightyellow;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.float-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.clear {
+  clear: both;
+}
+
+.float-card:nth-child(2n) .float-img {
+  float: right;
+  margin-left: 40px;
+  margin-right: 0;
+  text-align: left;
+}
+
+.float-card:nth-child(2n) {
+  text-align: right;
+}
+
+.post {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightseagreen;
+}
+
+.post-img {
+  float: left;
+}
+
+.post-img-1 {
+  width: 100px;
+  float: right;
+}
+
+.box-wrap {
+  /* overflow: hidden; */
+  margin: 0 auto;
+  width: 300px;
+  background-color: gray;
+}
+
+.box:nth-child(6n + 1) {
+  margin: 10px;
+  float: left;
+  width: 180px;
+  height: 180px;
+  background-color: orange;
+}
+
+.box:nth-child(6n + 2),
+.box:nth-child(6n + 3) {
+  margin: 10px;
+  float: right;
+  width: 80px;
+  height: 80px;
+  background-color: lightgoldenrodyellow;
+}
+
+.box:nth-child(6n + 4) {
+  margin: 10px;
+  float: right;
+  width: 180px;
+  height: 180px;
+  background-color: orange;
+}
+
+.box:nth-child(6n + 5),
+.box:nth-child(6n) {
+  margin: 10px;
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-color: lightgoldenrodyellow;
+}
