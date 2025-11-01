@@ -1,0 +1,21 @@
+section {
+  margin: 100px;
+}
+
+.float-img {
+  width: 200px;
+  float: left;
+}
+
+.float-text {
+  background-color: lightsalmon;
+}
+
+.float-card {
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+.float-div {
+  float: clear;
+}
