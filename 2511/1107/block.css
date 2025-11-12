@@ -1,0 +1,76 @@
+section {
+  margin: 100px;
+}
+
+header {
+  background-color: rgb(32, 97, 147);
+}
+
+nav {
+  max-width: 1024px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  aspect-ratio: 4/3;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  /* display: inline-block;
+  height: 100%; */
+  text-decoration: none;
+  background-color: rgba(85, 127, 198, 0.963);
+  color: white;
+}
+
+.nav-name {
+  background-color: rgb(160, 191, 242);
+  width: 75px;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 36px;
+}
+
+.container {
+  display: flex;
+}
+
+.side {
+  width: 15%;
+  /* 直向排列第二種方法 */
+  display: flex;
+  flex-direction: column;
+  /* 跟螢幕一樣高單位: vh */
+  min-height: 100vh;
+  background-color: rgb(32, 85, 125);
+}
+
+.side a {
+  /* 直向排列第一種方法 */
+  /* display: block; */
+  background-color: rgb(128, 155, 217);
+  text-decoration: none;
+  color: white;
+}
+
+.text {
+  width: 85%;
+  background-color: gainsboro;
+}
+
+.box {
+  background-color: #afa;
+  min-width: 200px;
+  max-width: 800px;
+}

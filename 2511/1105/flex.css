@@ -1,30 +1,29 @@
-
 section {
-    margin: 100px;
+  margin: 100px;
 }
 
 .box {
-    width: 300px;
+  width: 300px;
 }
 
 .box-wrap {
-    background-color: rgb(255, 255, 198);
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 10px;
-    flex-direction: row-reverse;
-    justify-content: center;
+  background-color: rgb(255, 255, 198);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 10px;
+  flex-direction: row-reverse;
+  justify-content: start;
 }
 
 .box1 {
-    background-color: rgb(255, 209, 217);
+  background-color: rgb(255, 209, 217);
 }
 
 .box2 {
-    background-color: wheat;
+  background-color: wheat;
 }
 
 .box3 {
-    background-color: rgb(196, 121, 196);
+  background-color: rgb(196, 121, 196);
 }
