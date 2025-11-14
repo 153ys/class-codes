@@ -1,0 +1,77 @@
+section {
+  margin: 100px;
+}
+
+.course {
+  position: relative;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+}
+
+.course::before {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translate(-50%);
+}
+
+.btn {
+  padding: 20px;
+  position: relative;
+  background-color: #faa;
+}
+
+.btn:hover::before {
+  content: "點按即同意隱私權政策";
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffa;
+  text-wrap: nowrap;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.btn:hover::after {
+  content: "";
+  position: absolute;
+  border-top: 10px solid #ffa;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title::before {
+  content: "這是before";
+  color: #fa0;
+}
+
+.title::after {
+  content: "這是after";
+  color: #afa;
+}
+
+.box {
+  width: 20px;
+  /* border-top: 50px solid #ffa;
+  border-right: 50px solid #aaf;
+  border-bottom: 50px solid #faf; */
+  border-left: 80px solid #afa;
+  border-top: 180px solid transparent;
+  /* border-bottom: 50px solid transparent; */
+}
